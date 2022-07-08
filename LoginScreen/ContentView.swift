@@ -60,7 +60,7 @@ struct ContentView: View {
     }
     
     func authenticateUser(username: String, password: String) {
-        if username.lowercased() == "petpark 2022" {
+        if username.lowercased() == "petpark2022" {
             wrongUsername = 0
             if password.lowercased() == "abc123" {
                 wrongPassword = 0
